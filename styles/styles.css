@@ -1,0 +1,193 @@
+ 
+header {  
+    margin-top: 20px;   
+} 
+h2{
+    font-family: "Nunito", serif;
+} 
+
+  
+ 
+
+  
+header h1 {  
+    font-family: "Nunito", serif;
+    display: flex;  
+    justify-content: center;  
+}  
+
+  
+nav {  
+    
+    border-radius: 80px;  
+    background-color: rgb(238, 192, 200);  
+    width: 500px;         
+    height: 50px;         
+    margin: 0 auto;  
+    margin-top: 15px;     
+    display: flex;        
+    align-items: center;   
+}  
+
+ 
+nav ul {  
+    display: flex;            
+    justify-content: center;   
+    list-style: none;         
+    padding: 0;              
+    width: 100%;               
+    margin: 0;               
+}  
+
+ 
+nav li {  
+    margin: 0 15px;  
+}
+main {  
+    margin-top: 40px;   
+} 
+
+.sobre-mi{
+    border: solid pink;
+   border-radius: 80px;
+   margin: auto;
+   border: solid pink;  
+   border-radius: 80px;  
+   margin: auto;              
+   padding: 20px;              
+   max-width: 1000px;            
+   height: 410px;             
+   display: flex;               
+   flex-direction: column;      
+   justify-content: center;    
+   align-items: center;       
+   text-align: center; 
+}
+ .sobre-mi h2{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(226, 134, 149);
+    border-radius: 40px;
+    width: auto;
+ }
+.sobre-mi img{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-bottom: 20px;
+}
+p a{
+    font-family: "Roboto Mono", serif;
+}
+
+.tec-favs {  
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(238, 192, 200); 
+    padding: 20px;  
+    border-radius: 80px;
+    max-width: 1750px; 
+    margin: 20px auto; 
+}
+
+.tec-favs h2 {
+    margin-bottom: 20px;
+    text-align: center; 
+    font-family: "Nunito", serif;
+}
+
+.cartas {  
+    display: flex;  
+    justify-content: center;  
+    gap: 15px; 
+}  
+
+.carta {  
+    padding: 15px;  
+    border: 2px solid  rgb(226, 134, 149); 
+    border-radius: 10px;  
+    background-color: white;  
+    text-align: center;  
+    width: 220px; 
+    height: 220px; 
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carta:hover {  
+    transform: scale(1.05);  
+}  
+
+.carta img {  
+    display: flex;
+    align-items: center;
+    width: 160px; 
+    height: 160px;  
+}  
+
+.carta h3 {  
+    font-family: "Roboto Mono", serif;
+    font-size: 14px;  
+    margin-top: 5px;
+}
+
+
+.contenedor-form h2 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(226, 134, 149);
+    border-radius: 80px;
+    width: 300px;
+}
+.contenedor-form {  
+     
+    display: flex;  
+    justify-content: center;  
+    flex-direction: column;  
+    align-items: center;  
+    height: 500px;  
+}  
+.contenedor-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    width: 700px;
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 80px;
+}
+
+.contenedor-form input {  
+    background-color: white;  
+    border: 2px solid  rgb(226, 134, 149);;  
+    border-radius: 5px;  
+    padding: 10px;  
+    margin: 10px;  
+    font-size: 16px;   
+    width: 500px; 
+    font-family: "Roboto Mono", serif;
+}  
+
+.contenedor-form button {  
+    background-color:  rgb(226, 134, 149);;  
+    border: 1px solid white;  
+    border-radius: 5px;  
+    padding: 10px 20px;  
+    margin: 20px 0;  
+    width: 280px;
+    font-size: 16px;   
+    cursor: pointer; 
+    font-family: "Roboto Mono", serif; 
+  
+}  
+
+.contenedor-form button:hover {  
+    background-color: pink; /* Cambia color al pasar el ratón */  
+}  
+
