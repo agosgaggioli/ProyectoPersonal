@@ -4,14 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet" href="/styles/styles.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Russo+One&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Russo+One&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Russo+One&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -30,21 +36,22 @@
                     <a href="#contenedor-form">Actividades Favoritas</a>
                 </li>
             </ul>
-        
+
         </nav>
 
     </header>
     <main>
         <section class="sobre-mi" id="sobre-mi">
             <h2>
-                 ¡hola soy Agostina!
+                ¡hola soy Agostina!
             </h2>
             <img src="/assets/img-mia.jpeg" alt="">
-           
+
             <h2>Sobre Mi</h2>
             <hr>
             <hr>
-            <p>Soy Agostina Gaggioli y estudio la carrera en analista programador en la UAI ARGENTINA. Estoy muy emocionada de poder
+            <p>Soy Agostina Gaggioli y estudio la carrera en analista programador en la UAI ARGENTINA. Estoy muy
+                emocionada de poder
                 profundizar mis conocimientos a través de este bootcamp. ¡Es una gran oportunidad para aprender y crecer
                 en este campo!
             </p>
@@ -55,7 +62,7 @@
             </article>
             <article class="contenedor-cartas">
                 <div class="cartas">
-                
+
                     <div class="carta">
                         <h3> Java Script</h3>
                         <img src="/assets/javas.png" alt="">
@@ -70,25 +77,35 @@
                     </div>
                 </div>
             </article>
-            
+
         </section>
-       
+
         <section class="contenedor-form" id="contenedor-form">
             <h2>Actividades Favoritas</h2>
-            <form action="">
-                <input type="text" placeholder="Nombre de la Actividad">
-                <input type="text" placeholder="Descripcion">
-                <input type="text" placeholder="Link de la Imagen">
-                <button>Agregar Actividad</button>
+            <form id="form">
+                <input type="text" placeholder="Nombre de la Actividad" id="titulo">
+                <input type="text" placeholder="Descripcion" id="descripcion">
+                <input type="text" placeholder="Link de la Imagen" id="url">
+                <button id="boton" type="submit">Agregar Actividad</button>
             </form>
 
         </section>
+        <section class="actividades-form-cartas">
+            <h2>Actividades Favoritas</h2>
+            <article class="contenedor-act">
+                <div id="contenedor-actividades" >
+    
+                </div>
+            </article>
+        </section>
+    
+        
     </main>
-    <script src="/scripts/index.js"></script>
+    
     <footer>
 
     </footer>
-
+    <script src="/scripts/index.js"></script>
 </body>
 
 </html>
